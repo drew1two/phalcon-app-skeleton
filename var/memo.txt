@@ -1,0 +1,30 @@
+Database Structure
+--------
+t_users
+  user_id (identity)
+  user_name (varchar)
+  user_email (varchar)
+  password (varchar)
+  is_active (int)
+  created_at (timestamp)
+  updated_at (timestamp)
+
+t_posts
+  post_id (identity)
+  post_title (varchar)
+  post_text (text)
+  user_id (int fk to users)
+  is_deleted (int)
+  created_at (timestamp)
+  updated_at (timestamp)
+
+t_comments
+  comment_id (identity)
+  comment_text (text)
+  author_name (vachar)
+  author_email (vachar)
+  author_url (vachar)
+  is_deleted (int)
+  created_at (timestamp)
+  updated_at (timestamp)
+--------

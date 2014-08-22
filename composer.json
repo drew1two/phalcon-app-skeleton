@@ -1,0 +1,15 @@
+{
+    "require": {
+        "phalcon/incubator": "dev-master",
+        "zendframework/zend-stdlib": "dev-master",
+        "zendframework/zend-version": "dev-master",
+        "zendframework/zend-json": "dev-master",
+        "zendframework/zend-loader": "dev-master",
+        "zendframework/zend-math": "dev-master",
+        "zendframework/zend-crypt": "dev-master",
+        "zendframework/zend-mime": "dev-master",
+        "zendframework/zend-servicemanager": "dev-master",
+        "zendframework/zend-mail": "dev-master"
+    }
+}
+

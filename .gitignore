@@ -1,0 +1,7 @@
+/composer.lock
+/vendor/
+/app/cache/*
+/app/logs/*
+!var/cache/metaData
+!var/cache/metaData/.gitkeep
+!var/logs/.gitkeep
